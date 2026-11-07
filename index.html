@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>踏浪 · 文件直链下载</title>
+<style>
+:root{--bg:#f5f6f8;--card:#fff;--ink:#16191d;--sub:#5c6672;--line:#e3e7ec;--accent:#1f9fa3;--accent-soft:#e6f6f6;--shadow:0 2px 18px rgba(20,30,40,.07)}
+@media (prefers-color-scheme:dark){:root{--bg:#111418;--card:#1b2027;--ink:#eef1f4;--sub:#a2adb8;--line:#2c343d;--accent:#5cd0d2;--accent-soft:#1c3335;--shadow:0 2px 18px rgba(0,0,0,.3)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:720px;margin:0 auto;padding:40px 18px 64px}
+header{text-align:center;margin-bottom:30px}
+h1{font-size:22px;font-weight:650;margin:0 0 8px;letter-spacing:.02em}
+.lead{color:var(--sub);font-size:14px;margin:0}
+.badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:12px;font-weight:600}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:var(--shadow);margin-bottom:14px}
+.name{font-size:17px;font-weight:650;margin:0 0 4px;word-break:break-all}
+.meta{color:var(--sub);font-size:13px;margin:0 0 14px}
+.btn{display:block;text-align:center;padding:12px 16px;border-radius:11px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;font-size:15px}
+.btn:active{opacity:.85}
+.btn.secondary{background:transparent;color:var(--accent);border:1px solid var(--accent);margin-top:9px;font-weight:500}
+.url{margin-top:12px;padding:10px 12px;background:var(--bg);border:1px dashed var(--line);border-radius:9px;font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--sub);word-break:break-all;user-select:all}
+.hash{margin-top:10px;font:11px/1.5 ui-monospace,Menlo,monospace;color:var(--sub);word-break:break-all}
+.note{color:var(--sub);font-size:13px;line-height:1.8;margin:22px 0 0;padding:16px 18px;border-left:3px solid var(--accent);background:var(--card);border-radius:0 10px 10px 0}
+footer{text-align:center;color:var(--sub);font-size:12px;margin-top:30px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>踏浪 · 文件直链下载</h1>
+  <p class="lead">免登录 · 打开即下 · 链接可直接转发</p>
+  <div class="badge">无需注册或登录</div>
+</header>
+
+<div class="card">
+  <p class="name">WCRefine 版本包与反编译源码.zip</p>
+  <p class="meta">47.79 MB · deb 2.1-9 rootless + 58,491 函数全量反编译 C + 索引 + 分析报告</p>
+  <a class="btn" href="WCRefine_bundle.zip" download>下载 WCRefine 资料包</a>
+  <div class="url" id="u1">WCRefine_bundle.zip</div>
+  <div class="hash">SHA256 38c1c90bb8d66b0fc40af85de5c44937afc6a90257ccefbb793c243311e3e8fd</div>
+</div>
+
+<div class="card">
+  <p class="name">踏浪助手 0.8.14-maint11 测试包.deb</p>
+  <p class="meta">357 KB · rootless / arm64 · 八项任务书最终版本</p>
+  <a class="btn" href="talang-maint11.deb" download>下载 maint11 测试包</a>
+  <div class="url" id="u2">talang-maint11.deb</div>
+  <div class="hash">SHA256 0cad1ea646302694c8abca5eacf7a510ae0f3b0938752df69fd1bb0341c87b5f</div>
+</div>
+
+<div class="card">
+  <p class="name">打包清单说明.md</p>
+  <p class="meta">3 KB · 目录结构、文件用途、边界说明</p>
+  <a class="btn secondary" href="manifest.md" target="_blank">查看清单（浏览器内打开）</a>
+  <div class="url" id="u3">manifest.md</div>
+</div>
+
+<div class="note">
+  <strong>关于「直链」</strong><br>
+  把上方任一文件名前的灰色地址栏内容，接到本页网址的域名后面，就是可直接下载的文件直链；也可以直接长按/右键上面的下载按钮「拷贝链接地址」。所有链接都不需要登录，任何拿到的人都能下载，请自行控制转发范围。
+</div>
+
+<footer>踏浪 · 生成于 2026-11-07</footer>
+</div>
+<script>
+(function(){
+  var base=location.href.replace(/[^/]*$/,'');
+  ['u1','u2','u3'].forEach(function(id){
+    var e=document.getElementById(id);if(e)e.textContent=base+e.textContent;
+  });
+})();
+</script>
+</body>
+</html>
