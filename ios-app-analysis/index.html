@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>iOS 应用结构分析 · 归档下载</title>
+<style>
+:root{--bg:#f5f6f8;--card:#fff;--ink:#16191d;--sub:#5c6672;--line:#e3e7ec;--accent:#1f9fa3;--accent-soft:#e6f6f6;--shadow:0 2px 18px rgba(20,30,40,.07)}
+@media (prefers-color-scheme:dark){:root{--bg:#111418;--card:#1b2027;--ink:#eef1f4;--sub:#a2adb8;--line:#2c343d;--accent:#5cd0d2;--accent-soft:#1c3335;--shadow:0 2px 18px rgba(0,0,0,.3)}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;-webkit-text-size-adjust:100%}
+.wrap{max-width:760px;margin:0 auto;padding:40px 18px 64px}
+header{text-align:center;margin-bottom:30px}
+h1{font-size:22px;font-weight:650;margin:0 0 8px;letter-spacing:.02em}
+.lead{color:var(--sub);font-size:14px;margin:0}
+.badge{display:inline-block;margin-top:14px;padding:5px 12px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:12px;font-weight:600}
+h2{font-size:16px;margin:28px 0 12px;font-weight:650}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;box-shadow:var(--shadow);margin-bottom:12px}
+.name{font-size:15px;font-weight:650;margin:0 0 4px;word-break:break-all}
+.meta{color:var(--sub);font-size:13px;margin:0 0 12px}
+.btn{display:inline-block;text-align:center;padding:9px 15px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;font-size:14px}
+.btn.secondary{background:transparent;color:var(--accent);border:1px solid var(--accent);font-weight:500}
+.url{margin-top:10px;padding:9px 11px;background:var(--bg);border:1px dashed var(--line);border-radius:9px;font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--sub);word-break:break-all;user-select:all}
+.note{color:var(--sub);font-size:13px;line-height:1.85;margin:22px 0 0;padding:16px 18px;border-left:3px solid var(--accent);background:var(--card);border-radius:0 10px 10px 0}
+code{background:var(--bg);padding:2px 5px;border-radius:4px;font-size:12px}
+footer{text-align:center;color:var(--sub);font-size:12px;margin-top:30px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>iOS 应用结构分析工作台 · 归档</h1>
+  <p class="lead">免登录直链 · 48 MB 分卷 · 自动还原与 SHA-256 校验</p>
+  <div class="badge">2026-11-10 归档</div>
+</header>
+
+<div class="card">
+  <p class="name">一键还原（推荐）</p>
+  <p class="meta">下载 <code>restore.py</code>，运行 <code>python restore.py --download</code>，自动拉齐全部分卷、合并并校验哈希</p>
+  <a class="btn" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/restore.py" download>下载 restore.py</a>
+  <a class="btn secondary" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/README.md" target="_blank">查看归档说明</a>
+  <a class="btn secondary" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/manifest.md" target="_blank">查看完整清单</a>
+</div>
+
+<h2>Soul_6.41.0.ipa · 209.9 MB · 5 片</h2>
+<div class="card"><p class="name">Soul_6.41.0.ipa.part001</p><p class="meta">45.8 MB · SHA256 <code>568ddd6311932c9b…</code></p><a class="btn" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/ipa-parts/Soul_6.41.0.ipa.part001" download>下载这一片</a><div class="url" data-raw="ipa-parts/Soul_6.41.0.ipa.part001"></div></div>
+<div class="card"><p class="name">Soul_6.41.0.ipa.part002</p><p class="meta">45.8 MB · SHA256 <code>0f18d90d65984c13…</code></p><a class="btn" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/ipa-parts/Soul_6.41.0.ipa.part002" download>下载这一片</a><div class="url" data-raw="ipa-parts/Soul_6.41.0.ipa.part002"></div></div>
+<div class="card"><p class="name">Soul_6.41.0.ipa.part003</p><p class="meta">45.8 MB · SHA256 <code>458d9818009e9350…</code></p><a class="btn" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/ipa-parts/Soul_6.41.0.ipa.part003" download>下载这一片</a><div class="url" data-raw="ipa-parts/Soul_6.41.0.ipa.part003"></div></div>
+<div class="card"><p class="name">Soul_6.41.0.ipa.part004</p><p class="meta">45.8 MB · SHA256 <code>26c22dfaa50c2a67…</code></p><a class="btn" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/ipa-parts/Soul_6.41.0.ipa.part004" download>下载这一片</a><div class="url" data-raw="ipa-parts/Soul_6.41.0.ipa.part004"></div></div>
+<div class="card"><p class="name">Soul_6.41.0.ipa.part005</p><p class="meta">26.8 MB · SHA256 <code>abf277d39d2dbd3c…</code></p><a class="btn" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/ipa-parts/Soul_6.41.0.ipa.part005" download>下载这一片</a><div class="url" data-raw="ipa-parts/Soul_6.41.0.ipa.part005"></div></div>
+<h2>MOMO陌陌_9.23.2.ipa · 157.6 MB · 4 片</h2>
+<div class="card"><p class="name">MOMO_9.23.2.ipa.part001</p><p class="meta">45.8 MB · SHA256 <code>3d70d30fbc898910…</code></p><a class="btn" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/ipa-parts/MOMO_9.23.2.ipa.part001" download>下载这一片</a><div class="url" data-raw="ipa-parts/MOMO_9.23.2.ipa.part001"></div></div>
+<div class="card"><p class="name">MOMO_9.23.2.ipa.part002</p><p class="meta">45.8 MB · SHA256 <code>e68a7c2afe80ce18…</code></p><a class="btn" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/ipa-parts/MOMO_9.23.2.ipa.part002" download>下载这一片</a><div class="url" data-raw="ipa-parts/MOMO_9.23.2.ipa.part002"></div></div>
+<div class="card"><p class="name">MOMO_9.23.2.ipa.part003</p><p class="meta">45.8 MB · SHA256 <code>6190a7d76e05ede5…</code></p><a class="btn" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/ipa-parts/MOMO_9.23.2.ipa.part003" download>下载这一片</a><div class="url" data-raw="ipa-parts/MOMO_9.23.2.ipa.part003"></div></div>
+<div class="card"><p class="name">MOMO_9.23.2.ipa.part004</p><p class="meta">20.2 MB · SHA256 <code>e517e6828694f899…</code></p><a class="btn" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/ipa-parts/MOMO_9.23.2.ipa.part004" download>下载这一片</a><div class="url" data-raw="ipa-parts/MOMO_9.23.2.ipa.part004"></div></div>
+
+<h2>其它资料</h2>
+<div class="card">
+  <p class="name">archive-manifest.json / SHA256SUMS.txt</p>
+  <p class="meta">机器可读全量清单与标准哈希文件，用于离线校验</p>
+  <a class="btn secondary" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/archive-manifest.json" target="_blank">manifest.json</a>
+  <a class="btn secondary" href="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/SHA256SUMS.txt" target="_blank">SHA256SUMS.txt</a>
+</div>
+
+<div class="note">
+  <strong>关于直链与还原</strong><br>
+  上面每片分卷的灰色地址栏就是免登录 raw 直链，可直接复制转发；任何拿到链接的人都能下载。<br>
+  分卷是原始字节切片，未二次压缩。合并顺序按 <code>.part001 → .part00N</code>，<code>restore.py</code> / <code>restore.ps1</code> 会逐片核对 SHA-256，合并后再核对整个 IPA 的哈希。<br>
+  <strong>请注意</strong>：IPA 为第三方商业应用安装包，本仓库为 public，请仅用于个人本地研究与备份，遵守对应软件许可，不要二次分发或商用。
+</div>
+
+<footer>踏浪 · iOS 应用结构分析工作台 · 生成于 2026-11-10T04:20:28Z</footer>
+</div>
+<script>
+(function(){
+  var base="https://raw.githubusercontent.com/Xuefeng122/talang-files/main/ios-app-analysis/";
+  Array.prototype.forEach.call(document.querySelectorAll('.url[data-raw]'),function(e){
+    e.textContent=base+e.getAttribute('data-raw');
+  });
+})();
+</script>
+</body>
+</html>

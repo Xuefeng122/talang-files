@@ -1,0 +1,1646 @@
+{
+  "generated_at": "2026-11-10T11:54:05.678617+08:00",
+  "input": "E:\\iOS-App-Analysis\\01-IPA\\MOMO陌陌_9.23.2.ipa",
+  "size": 165207615,
+  "sha256": "fe86448b141057ee8ac79bd67ac7a3b79e247af14c87dce8d1f03524a33ae487",
+  "app": {
+    "CFBundleIdentifier": "com.wemomo.momoappdemo1",
+    "CFBundleExecutable": "MomoChat",
+    "CFBundleShortVersionString": "9.23.2",
+    "CFBundleVersion": "9.23.2.7",
+    "MinimumOSVersion": "15.0",
+    "CFBundleSupportedPlatforms": [
+      "iPhoneOS"
+    ],
+    "UIDeviceFamily": [
+      1
+    ],
+    "NSAppTransportSecurity": {
+      "NSAllowsArbitraryLoads": true
+    },
+    "CFBundleURLTypes": [
+      {
+        "CFBundleTypeRole": "Editor",
+        "CFBundleURLName": "com.immomo.momo",
+        "CFBundleURLSchemes": [
+          "momologinauthorize",
+          "momochatsdk",
+          "momochs",
+          "momoSDK",
+          "wb2041542309",
+          "rm165934com.wemomo.momoappdemo1",
+          "momochat",
+          "momotencent",
+          "tbopen24634004"
+        ]
+      },
+      {
+        "CFBundleTypeRole": "Editor",
+        "CFBundleURLName": "weixin",
+        "CFBundleURLSchemes": [
+          "wx53440afb924e0ace"
+        ]
+      },
+      {
+        "CFBundleTypeRole": "Editor",
+        "CFBundleURLName": "tencentopenapi",
+        "CFBundleURLSchemes": [
+          "mqzone",
+          "wtloginmqq2",
+          "tencent100392046"
+        ]
+      },
+      {
+        "CFBundleTypeRole": "Editor",
+        "CFBundleURLName": "com.taobao.taesdk",
+        "CFBundleURLSchemes": [
+          "tbopen23175301"
+        ]
+      },
+      {
+        "CFBundleTypeRole": "Editor",
+        "CFBundleURLName": "alipayShare",
+        "CFBundleURLSchemes": [
+          "ap2015091100270903"
+        ]
+      },
+      {
+        "CFBundleTypeRole": "Editor",
+        "CFBundleURLName": "com.taobao.trade",
+        "CFBundleURLSchemes": [
+          "tbopen24665183"
+        ]
+      },
+      {
+        "CFBundleTypeRole": "Editor",
+        "CFBundleURLName": "youzan",
+        "CFBundleURLSchemes": [
+          "momo.youzan.com"
+        ]
+      },
+      {
+        "CFBundleTypeRole": "Editor",
+        "CFBundleURLName": "cyberidentity",
+        "CFBundleURLSchemes": [
+          "cyber240222"
+        ]
+      }
+    ],
+    "UISupportedInterfaceOrientations": [
+      "UIInterfaceOrientationPortrait"
+    ],
+    "ITSAppUsesNonExemptEncryption": false,
+    "NSCameraUsageDescription": "您还没有开启相机权限，开启后才能正常拍摄照片、视频进行发布，或者通过直播实时分享生活。",
+    "NSPhotoLibraryUsageDescription": "为了您能正常使用编辑头像、发布动态、发送聊天图片/视频等功能，MOMO陌陌需要申请相册权限。",
+    "NSMicrophoneUsageDescription": "您还没有开启麦克风权限，开启后才能在正常拍摄视频时录制声音，或者直播时分享声音。",
+    "NSLocationWhenInUseUsageDescription": "您的位置将用来获取所在地的附近信息，帮助您与附近的人更方便地沟通交流",
+    "executable": "Payload/MomoChat.app/MomoChat",
+    "executable_size": 223240448
+  },
+  "macho": {
+    "slices": [
+      {
+        "arch_label": "single",
+        "slice_offset": 0,
+        "slice_size": 223240448,
+        "magic": "0xfeedfacf",
+        "cpu_type": "ARM64",
+        "cpu_subtype": "0x00000000",
+        "filetype": "MH_EXECUTE",
+        "ncmds": 179,
+        "sizeofcmds": 19424,
+        "flags": [
+          "MH_NOUNDEFS",
+          "MH_DYLDLINK",
+          "MH_TWOLEVEL",
+          "MH_WEAK_DEFINES",
+          "MH_BINDS_TO_WEAK",
+          "MH_PIE",
+          "MH_HAS_TLV_DESCRIPTORS"
+        ],
+        "load_commands": [
+          "LC_SEGMENT_64",
+          "LC_SEGMENT_64",
+          "LC_SEGMENT_64",
+          "LC_SEGMENT_64",
+          "LC_SEGMENT_64",
+          "LC_SEGMENT_64",
+          "LC_SEGMENT_64",
+          "LC_0x80000034",
+          "LC_0x80000033",
+          "LC_SYMTAB",
+          "LC_DYSYMTAB",
+          "LC_LOAD_DYLINKER",
+          "LC_UUID",
+          "LC_BUILD_VERSION",
+          "LC_SOURCE_VERSION",
+          "LC_0x80000028",
+          "LC_ENCRYPTION_INFO_64",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_WEAK_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_LOAD_DYLIB",
+          "LC_RPATH",
+          "LC_RPATH",
+          "LC_RPATH",
+          "LC_FUNCTION_STARTS",
+          "LC_DATA_IN_CODE",
+          "LC_CODE_SIGNATURE"
+        ],
+        "segments": [
+          {
+            "name": "__PAGEZERO",
+            "vmaddr": "0x0",
+            "vmsize": 4294967296,
+            "fileoff": 0,
+            "filesize": 0,
+            "initprot": 0,
+            "maxprot": 0,
+            "nsects": 0
+          },
+          {
+            "name": "__TEXT",
+            "vmaddr": "0x100000000",
+            "vmsize": 160808960,
+            "fileoff": 0,
+            "filesize": 160808960,
+            "initprot": 5,
+            "maxprot": 5,
+            "nsects": 27
+          },
+          {
+            "name": "__DATA_CONST",
+            "vmaddr": "0x10995c000",
+            "vmsize": 7520256,
+            "fileoff": 160808960,
+            "filesize": 7520256,
+            "initprot": 3,
+            "maxprot": 3,
+            "nsects": 15
+          },
+          {
+            "name": "__DATA",
+            "vmaddr": "0x10a088000",
+            "vmsize": 20643840,
+            "fileoff": 168329216,
+            "filesize": 15253504,
+            "initprot": 3,
+            "maxprot": 3,
+            "nsects": 31
+          },
+          {
+            "name": "__RODATA",
+            "vmaddr": "0x10b438000",
+            "vmsize": 24379392,
+            "fileoff": 183615488,
+            "filesize": 24379392,
+            "initprot": 3,
+            "maxprot": 3,
+            "nsects": 5
+          },
+          {
+            "name": "__LLVM_COV",
+            "vmaddr": "0x10cb78000",
+            "vmsize": 196608,
+            "fileoff": 207994880,
+            "filesize": 196608,
+            "initprot": 3,
+            "maxprot": 3,
+            "nsects": 2
+          },
+          {
+            "name": "__LINKEDIT",
+            "vmaddr": "0x10cba8000",
+            "vmsize": 15056896,
+            "fileoff": 208191488,
+            "filesize": 15048960,
+            "initprot": 1,
+            "maxprot": 1,
+            "nsects": 0
+          }
+        ],
+        "sections": [
+          {
+            "name": "__text",
+            "segment": "__TEXT",
+            "size": 146000396,
+            "addr": "0x100008000"
+          },
+          {
+            "name": "__stubs",
+            "segment": "__TEXT",
+            "size": 80772,
+            "addr": "0x108b44a0c"
+          },
+          {
+            "name": "__objc_stubs",
+            "segment": "__TEXT",
+            "size": 4392960,
+            "addr": "0x108b585a0"
+          },
+          {
+            "name": "__init_offsets",
+            "segment": "__TEXT",
+            "size": 11740,
+            "addr": "0x108f88da0"
+          },
+          {
+            "name": "__objc_methlist",
+            "segment": "__TEXT",
+            "size": 4620708,
+            "addr": "0x108f8bb80"
+          },
+          {
+            "name": "__const",
+            "segment": "__TEXT",
+            "size": 101480,
+            "addr": "0x1093f3d30"
+          },
+          {
+            "name": "__gcc_except_tab",
+            "segment": "__TEXT",
+            "size": 2163032,
+            "addr": "0x10940c998"
+          },
+          {
+            "name": "__ustring",
+            "segment": "__TEXT",
+            "size": 421008,
+            "addr": "0x10961caf0"
+          },
+          {
+            "name": "__constg_swiftt",
+            "segment": "__TEXT",
+            "size": 240328,
+            "addr": "0x109683780"
+          },
+          {
+            "name": "__swift5_typeref",
+            "segment": "__TEXT",
+            "size": 67374,
+            "addr": "0x1096be248"
+          },
+          {
+            "name": "__swift5_fieldmd",
+            "segment": "__TEXT",
+            "size": 119152,
+            "addr": "0x1096ce978"
+          },
+          {
+            "name": "__swift5_types",
+            "segment": "__TEXT",
+            "size": 7140,
+            "addr": "0x1096ebae8"
+          },
+          {
+            "name": "__swift5_reflstr",
+            "segment": "__TEXT",
+            "size": 119041,
+            "addr": "0x1096ed6d0"
+          },
+          {
+            "name": "__swift5_capture",
+            "segment": "__TEXT",
+            "size": 40836,
+            "addr": "0x10970a7d4"
+          },
+          {
+            "name": "__swift5_builtin",
+            "segment": "__TEXT",
+            "size": 3220,
+            "addr": "0x109714758"
+          },
+          {
+            "name": "__swift5_assocty",
+            "segment": "__TEXT",
+            "size": 10224,
+            "addr": "0x1097153ec"
+          },
+          {
+            "name": "__swift5_proto",
+            "segment": "__TEXT",
+            "size": 10608,
+            "addr": "0x109717bdc"
+          },
+          {
+            "name": "__swift5_protos",
+            "segment": "__TEXT",
+            "size": 396,
+            "addr": "0x10971a54c"
+          },
+          {
+            "name": "__swift_as_entry",
+            "segment": "__TEXT",
+            "size": 84,
+            "addr": "0x10971a6d8"
+          },
+          {
+            "name": "__swift_as_ret",
+            "segment": "__TEXT",
+            "size": 104,
+            "addr": "0x10971a72c"
+          },
+          {
+            "name": "__swift5_mpenum",
+            "segment": "__TEXT",
+            "size": 144,
+            "addr": "0x10971a794"
+          },
+          {
+            "name": "__llvm",
+            "segment": "__TEXT",
+            "size": 74,
+            "addr": "0x10971a828"
+          },
+          {
+            "name": "__dof_RACCompou",
+            "segment": "__TEXT",
+            "size": 744,
+            "addr": "0x10971a872"
+          },
+          {
+            "name": "__dof_RACSignal",
+            "segment": "__TEXT",
+            "size": 891,
+            "addr": "0x10971ab5a"
+          },
+          {
+            "name": "__unwind_info",
+            "segment": "__TEXT",
+            "size": 1801516,
+            "addr": "0x10971aed8"
+          },
+          {
+            "name": "__eh_frame",
+            "segment": "__TEXT",
+            "size": 532476,
+            "addr": "0x1098d2c08"
+          },
+          {
+            "name": "__oslogstring",
+            "segment": "__TEXT",
+            "size": 14,
+            "addr": "0x109958000"
+          },
+          {
+            "name": "__got",
+            "segment": "__DATA_CONST",
+            "size": 162648,
+            "addr": "0x10995c000"
+          },
+          {
+            "name": "__const",
+            "segment": "__DATA_CONST",
+            "size": 4540440,
+            "addr": "0x109983b80"
+          },
+          {
+            "name": "__cfstring",
+            "segment": "__DATA_CONST",
+            "size": 2576224,
+            "addr": "0x109dd8398"
+          },
+          {
+            "name": "__objc_classlist",
+            "segment": "__DATA_CONST",
+            "size": 146392,
+            "addr": "0x10a04d2f8"
+          },
+          {
+            "name": "__objc_nlclslist",
+            "segment": "__DATA_CONST",
+            "size": 936,
+            "addr": "0x10a070ed0"
+          },
+          {
+            "name": "__objc_catlist",
+            "segment": "__DATA_CONST",
+            "size": 10544,
+            "addr": "0x10a071278"
+          },
+          {
+            "name": "__objc_nlcatlist",
+            "segment": "__DATA_CONST",
+            "size": 544,
+            "addr": "0x10a073ba8"
+          },
+          {
+            "name": "__objc_protolist",
+            "segment": "__DATA_CONST",
+            "size": 21400,
+            "addr": "0x10a073dc8"
+          },
+          {
+            "name": "__objc_imageinfo",
+            "segment": "__DATA_CONST",
+            "size": 8,
+            "addr": "0x10a079160"
+          },
+          {
+            "name": "__objc_intobj",
+            "segment": "__DATA_CONST",
+            "size": 14640,
+            "addr": "0x10a079168"
+          },
+          {
+            "name": "__objc_arraydata",
+            "segment": "__DATA_CONST",
+            "size": 20648,
+            "addr": "0x10a07ca98"
+          },
+          {
+            "name": "__objc_dictobj",
+            "segment": "__DATA_CONST",
+            "size": 11760,
+            "addr": "0x10a081b40"
+          },
+          {
+            "name": "__objc_floatobj",
+            "segment": "__DATA_CONST",
+            "size": 112,
+            "addr": "0x10a084930"
+          },
+          {
+            "name": "__objc_arrayobj",
+            "segment": "__DATA_CONST",
+            "size": 3864,
+            "addr": "0x10a0849a0"
+          },
+          {
+            "name": "__objc_doubleobj",
+            "segment": "__DATA_CONST",
+            "size": 880,
+            "addr": "0x10a0858b8"
+          },
+          {
+            "name": "__objc_const",
+            "segment": "__DATA",
+            "size": 9135464,
+            "addr": "0x10a088000"
+          },
+          {
+            "name": "__objc_selrefs",
+            "segment": "__DATA",
+            "size": 1468760,
+            "addr": "0x10a93e568"
+          },
+          {
+            "name": "__objc_protorefs",
+            "segment": "__DATA",
+            "size": 3912,
+            "addr": "0x10aaa4ec0"
+          },
+          {
+            "name": "__objc_classrefs",
+            "segment": "__DATA",
+            "size": 122152,
+            "addr": "0x10aaa5e08"
+          },
+          {
+            "name": "__objc_superrefs",
+            "segment": "__DATA",
+            "size": 84736,
+            "addr": "0x10aac3b30"
+          },
+          {
+            "name": "__objc_ivar",
+            "segment": "__DATA",
+            "size": 388496,
+            "addr": "0x10aad8630"
+          },
+          {
+            "name": "__objc_data",
+            "segment": "__DATA",
+            "size": 1833208,
+            "addr": "0x10ab373c0"
+          },
+          {
+            "name": "__llvm_prf_cnts",
+            "segment": "__DATA",
+            "size": 50456,
+            "addr": "0x10acf6cb8"
+          },
+          {
+            "name": "__llvm_prf_data",
+            "segment": "__DATA",
+            "size": 140448,
+            "addr": "0x10ad031d0"
+          },
+          {
+            "name": "mach_o_kvset",
+            "segment": "__DATA",
+            "size": 17776,
+            "addr": "0x10ad25670"
+          },
+          {
+            "name": "__data",
+            "segment": "__DATA",
+            "size": 1936809,
+            "addr": "0x10ad29be0"
+          },
+          {
+            "name": "mln_mach_o_kvset",
+            "segment": "__DATA",
+            "size": 6384,
+            "addr": "0x10af02990"
+          },
+          {
+            "name": "MDAppConfig2Bind",
+            "segment": "__DATA",
+            "size": 1200,
+            "addr": "0x10af04280"
+          },
+          {
+            "name": "MDAppConfigBind",
+            "segment": "__DATA",
+            "size": 168,
+            "addr": "0x10af04730"
+          },
+          {
+            "name": "MDAppBusService",
+            "segment": "__DATA",
+            "size": 96,
+            "addr": "0x10af047d8"
+          },
+          {
+            "name": "HMDModule",
+            "segment": "__DATA",
+            "size": 8,
+            "addr": "0x10af04838"
+          },
+          {
+            "name": "HMDLocalModule",
+            "segment": "__DATA",
+            "size": 8,
+            "addr": "0x10af04840"
+          },
+          {
+            "name": "DYSDKLoad",
+            "segment": "__DATA",
+            "size": 16,
+            "addr": "0x10af04848"
+          },
+          {
+            "name": "__objc_clsrolist",
+            "segment": "__DATA",
+            "size": 144,
+            "addr": "0x10af04858"
+          },
+          {
+            "name": "MDAppBusModule",
+            "segment": "__DATA",
+            "size": 48,
+            "addr": "0x10af048e8"
+          },
+          {
+            "name": "MATServices",
+            "segment": "__DATA",
+            "size": 16,
+            "addr": "0x10af04918"
+          },
+          {
+            "name": "__thread_vars",
+            "segment": "__DATA",
+            "size": 960,
+            "addr": "0x10af04928"
+          },
+          {
+            "name": "__llvm_prf_names",
+            "segment": "__DATA",
+            "size": 55088,
+            "addr": "0x10af04ce8"
+          },
+          {
+            "name": "__swift_hooks",
+            "segment": "__DATA",
+            "size": 184,
+            "addr": "0x10af12418"
+          },
+          {
+            "name": "__swift51_hooks",
+            "segment": "__DATA",
+            "size": 184,
+            "addr": "0x10af124d0"
+          },
+          {
+            "name": "__s_async_hook",
+            "segment": "__DATA",
+            "size": 400,
+            "addr": "0x10af12588"
+          },
+          {
+            "name": "__swift56_hooks",
+            "segment": "__DATA",
+            "size": 176,
+            "addr": "0x10af12718"
+          },
+          {
+            "name": "__thread_data",
+            "segment": "__DATA",
+            "size": 4144,
+            "addr": "0x10af127d0"
+          },
+          {
+            "name": "__thread_bss",
+            "segment": "__DATA",
+            "size": 872,
+            "addr": "0x10af13800"
+          },
+          {
+            "name": "__bss",
+            "segment": "__DATA",
+            "size": 3896376,
+            "addr": "0x10af14000"
+          },
+          {
+            "name": "__common",
+            "segment": "__DATA",
+            "size": 1473536,
+            "addr": "0x10b2d0000"
+          },
+          {
+            "name": "__objc_classname",
+            "segment": "__RODATA",
+            "size": 484127,
+            "addr": "0x10b438000"
+          },
+          {
+            "name": "__objc_methname",
+            "segment": "__RODATA",
+            "size": 6743394,
+            "addr": "0x10b4ae320"
+          },
+          {
+            "name": "__objc_methtype",
+            "segment": "__RODATA",
+            "size": 769371,
+            "addr": "0x10bb1c882"
+          },
+          {
+            "name": "__cstring",
+            "segment": "__RODATA",
+            "size": 7204591,
+            "addr": "0x10bbd85e0"
+          },
+          {
+            "name": "__const",
+            "segment": "__RODATA",
+            "size": 9164369,
+            "addr": "0x10c2b7500"
+          },
+          {
+            "name": "__llvm_covfun",
+            "segment": "__LLVM_COV",
+            "size": 170221,
+            "addr": "0x10cb78000"
+          },
+          {
+            "name": "__llvm_covmap",
+            "segment": "__LLVM_COV",
+            "size": 12568,
+            "addr": "0x10cba18f0"
+          }
+        ],
+        "dylibs": [
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/libbz2.1.0.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/libc++.1.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/libc++abi.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/libiconv.2.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/libicucore.A.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/libresolv.9.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/libsqlite3.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/swift/libswiftCoreGraphics.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/libxml2.2.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/libz.1.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/ARKit.framework/ARKit"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/AVFoundation.framework/AVFoundation"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/AVKit.framework/AVKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/Accelerate.framework/Accelerate"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/AdSupport.framework/AdSupport"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/AgoraAiEchoCancellationExtension.framework/AgoraAiEchoCancellationExtension"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/AgoraAiNoiseSuppressionExtension.framework/AgoraAiNoiseSuppressionExtension"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/AgoraAudioBeautyExtension.framework/AgoraAudioBeautyExtension"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/AgoraRtcKit.framework/AgoraRtcKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/AgoraSoundTouch.framework/AgoraSoundTouch"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/Agorafdkaac.framework/Agorafdkaac"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/Agoraffmpeg.framework/Agoraffmpeg"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/AuthenticationServices.framework/AuthenticationServices"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/ByteRTCFFmpegAudioExtension.framework/ByteRTCFFmpegAudioExtension"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/CFNetwork.framework/CFNetwork"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/Contacts.framework/Contacts"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/CoreAudio.framework/CoreAudio"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/CoreImage.framework/CoreImage"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/CoreLocation.framework/CoreLocation"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/CoreML.framework/CoreML"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/CoreMedia.framework/CoreMedia"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/CoreMotion.framework/CoreMotion"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/CoreServices.framework/CoreServices"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/CoreTelephony.framework/CoreTelephony"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/CoreText.framework/CoreText"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/CoreVideo.framework/CoreVideo"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/Foundation.framework/Foundation"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/GLKit.framework/GLKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/GameController.framework/GameController"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/GameKit.framework/GameKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/ImageIO.framework/ImageIO"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/MapKit.framework/MapKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/MessageUI.framework/MessageUI"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/Metal.framework/Metal"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/MetalKit.framework/MetalKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/OpenAL.framework/OpenAL"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/OpenGLES.framework/OpenGLES"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/Photos.framework/Photos"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/QuartzCore.framework/QuartzCore"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/RTCFFmpeg.framework/RTCFFmpeg"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/RealXBase.framework/RealXBase"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/ReplayKit.framework/ReplayKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/Security.framework/Security"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/StoreKit.framework/StoreKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/SudMGP.framework/SudMGP"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TCGSDK.framework/TCGSDK"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTFFmpeg.framework/TTFFmpeg"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKBMF.framework/TTSDKBMF"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKCore.framework/TTSDKCore"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKHttpDNS.framework/TTSDKHttpDNS"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKLiveBase.framework/TTSDKLiveBase"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKLivePlayerBMF.framework/TTSDKLivePlayerBMF"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKLivePlayerNormal.framework/TTSDKLivePlayerNormal"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKLivePullVolcLog.framework/TTSDKLivePullVolcLog"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKPlayer.framework/TTSDKPlayer"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKPlayerCoreNormal.framework/TTSDKPlayerCoreNormal"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKQuicCore.framework/TTSDKQuicCore"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKQuicPull.framework/TTSDKQuicPull"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKReachability.framework/TTSDKReachability"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKStrategyPull.framework/TTSDKStrategyPull"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKTTFFmpegNormal.framework/TTSDKTTFFmpegNormal"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKTools.framework/TTSDKTools"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKTopSignature.framework/TTSDKTopSignature"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKVCN.framework/TTSDKVCN"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TTSDKVolcLog.framework/TTSDKVolcLog"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/TWEBRTC.framework/TWEBRTC"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/UIKit.framework/UIKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/UserNotifications.framework/UserNotifications"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/VideoToolbox.framework/VideoToolbox"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/VolcBaseLog.framework/VolcBaseLog"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/VolcEngineRTC.framework/VolcEngineRTC"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/WebKit.framework/WebKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/aosl.framework/aosl"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/bytenn.framework/bytenn"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/h265enc.framework/h265enc"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/libvcn.framework/libvcn"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/nuisdk.framework/nuisdk"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/ttboringssl.framework/ttboringssl"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "@rpath/ttcrypto.framework/ttcrypto"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/AppTrackingTransparency.framework/AppTrackingTransparency"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/CoreHaptics.framework/CoreHaptics"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/DeviceCheck.framework/DeviceCheck"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/MetalPerformanceShaders.framework/MetalPerformanceShaders"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/MetricKit.framework/MetricKit"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/Vision.framework/Vision"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/PhotosUI.framework/PhotosUI"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/SceneKit.framework/SceneKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/EventKit.framework/EventKit"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/WatchConnectivity.framework/WatchConnectivity"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/AddressBook.framework/AddressBook"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/CoreData.framework/CoreData"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/libobjc.A.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/libSystem.B.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/System/Library/Frameworks/AVFAudio.framework/AVFAudio"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/AdServices.framework/AdServices"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/Combine.framework/Combine"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/ContactsUI.framework/ContactsUI"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/ExternalAccessory.framework/ExternalAccessory"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/LocalAuthentication.framework/LocalAuthentication"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/Network.framework/Network"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/QuickLook.framework/QuickLook"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/SafariServices.framework/SafariServices"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/System/Library/Frameworks/SwiftUI.framework/SwiftUI"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/libcompression.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftARKit.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftAVFoundation.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftAccelerate.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/swift/libswiftCore.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftCoreAudio.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/swift/libswiftCoreFoundation.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftCoreImage.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftCoreLocation.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftCoreMIDI.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/swift/libswiftCoreMedia.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/swift/libswiftDarwin.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/swift/libswiftDispatch.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftGLKit.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftIntents.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftMapKit.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftMetal.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftMetalKit.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftModelIO.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftOSLog.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/swift/libswiftObjectiveC.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftQuartzCore.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftSceneKit.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftSpatial.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftSpriteKit.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftXPC.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswift_Concurrency.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftos.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_WEAK_DYLIB",
+            "name": "/usr/lib/swift/libswiftsimd.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/swift/libswiftFoundation.dylib"
+          },
+          {
+            "load_command": "LC_LOAD_DYLIB",
+            "name": "/usr/lib/swift/libswiftUIKit.dylib"
+          }
+        ],
+        "rpaths": [
+          "/usr/lib/swift",
+          "@executable_path/Frameworks",
+          "@loader_path/Frameworks"
+        ],
+        "encryption": {
+          "cryptoff": 32768,
+          "cryptsize": 160759808,
+          "cryptid": 0,
+          "state": "not encrypted"
+        },
+        "uuid": "94F4545CB80F3AA3B61AA403A0FBBC19",
+        "build_version": {
+          "platform": 2,
+          "minos": "15.0.0",
+          "sdk": "26.2.0",
+          "ntools": 4
+        },
+        "code_signature": {
+          "dataoff": 217691936,
+          "datasize": 5548512
+        },
+        "guard_token_hits": {
+          "DYLD_INSERT_LIBRARIES": 1,
+          "MobileSubstrate": 9,
+          "Substrate": 12,
+          "Frida": 1,
+          "frida": 3,
+          "ptrace": 2,
+          "sysctl": 17,
+          "amfid": 1,
+          "jailbreak": 5,
+          "Jailbreak": 2,
+          "jailbroken": 3,
+          "/Applications/Cydia.app": 1,
+          "cydia": 6,
+          "fork()": 1,
+          "posix_spawn": 2,
+          "SSLSetSessionOption": 5,
+          "SecTrustEvaluate": 4,
+          "NSURLSession": 162,
+          "ATS": 46,
+          "CFNetwork": 21,
+          "objc_msgSend": 6
+        }
+      }
+    ],
+    "container": "thin"
+  },
+  "bundle_files": {
+    "entry_count": 2725,
+    "extension_histogram": {
+      ".png": 1316,
+      "(no ext)": 346,
+      ".glsl": 310,
+      ".mt": 195,
+      ".plist": 114,
+      ".svga": 87,
+      ".nib": 69,
+      ".json": 44,
+      ".lua": 33,
+      ".zip": 28,
+      ".mp3": 17,
+      ".xcprivacy": 17,
+      ".caf": 16,
+      ".rtg": 16,
+      ".txt": 14,
+      ".metallib": 14,
+      ".strings": 12,
+      ".edg": 10,
+      ".car": 8,
+      ".pvr": 7
+    },
+    "frameworks": [
+      "AgoraAiEchoCancellationExtension.framework",
+      "AgoraAiNoiseSuppressionExtension.framework",
+      "AgoraAudioBeautyExtension.framework",
+      "AgoraRtcKit.framework",
+      "AgoraSoundTouch.framework",
+      "Agorafdkaac.framework",
+      "Agoraffmpeg.framework",
+      "ByteRTCFFmpegAudioExtension.framework",
+      "RTCFFmpeg.framework",
+      "RealXBase.framework",
+      "SudMGP.framework",
+      "TCGSDK.framework",
+      "TTFFmpeg.framework",
+      "TTSDKBMF.framework",
+      "TTSDKCore.framework",
+      "TTSDKHttpDNS.framework",
+      "TTSDKLiveBase.framework",
+      "TTSDKLivePlayerBMF.framework",
+      "TTSDKLivePlayerNormal.framework",
+      "TTSDKLivePullVolcLog.framework",
+      "TTSDKPlayer.framework",
+      "TTSDKPlayerCoreNormal.framework",
+      "TTSDKQuicCore.framework",
+      "TTSDKQuicPull.framework",
+      "TTSDKReachability.framework",
+      "TTSDKStrategyPull.framework",
+      "TTSDKTTFFmpegNormal.framework",
+      "TTSDKTools.framework",
+      "TTSDKTopSignature.framework",
+      "TTSDKVCN.framework",
+      "TTSDKVolcLog.framework",
+      "TWEBRTC.framework",
+      "VolcBaseLog.framework",
+      "VolcEngineRTC.framework",
+      "aosl.framework",
+      "bytenn.framework",
+      "h265enc.framework",
+      "libvcn.framework",
+      "nuisdk.framework",
+      "ttboringssl.framework",
+      "ttcrypto.framework"
+    ],
+    "dynamic_libraries": [
+      "Payload/MomoChat.app/Frameworks/TTSDKLivePlayerBMF.framework/",
+      "Payload/MomoChat.app/Frameworks/libvcn.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKPlayerCoreNormal.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKTools.framework/",
+      "Payload/MomoChat.app/Frameworks/AgoraAudioBeautyExtension.framework/",
+      "Payload/MomoChat.app/Frameworks/aosl.framework/",
+      "Payload/MomoChat.app/Frameworks/AgoraAiNoiseSuppressionExtension.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKQuicPull.framework/",
+      "Payload/MomoChat.app/Frameworks/bytenn.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKLiveBase.framework/",
+      "Payload/MomoChat.app/Frameworks/AgoraSoundTouch.framework/",
+      "Payload/MomoChat.app/Frameworks/TWEBRTC.framework/",
+      "Payload/MomoChat.app/Frameworks/RTCFFmpeg.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKCore.framework/",
+      "Payload/MomoChat.app/Frameworks/ByteRTCFFmpegAudioExtension.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKReachability.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKStrategyPull.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKTTFFmpegNormal.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKBMF.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKQuicCore.framework/",
+      "Payload/MomoChat.app/Frameworks/ttboringssl.framework/",
+      "Payload/MomoChat.app/Frameworks/Agorafdkaac.framework/",
+      "Payload/MomoChat.app/Frameworks/TCGSDK.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKVCN.framework/",
+      "Payload/MomoChat.app/Frameworks/TTFFmpeg.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKPlayer.framework/",
+      "Payload/MomoChat.app/Frameworks/VolcEngineRTC.framework/",
+      "Payload/MomoChat.app/Frameworks/h265enc.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKLivePullVolcLog.framework/",
+      "Payload/MomoChat.app/Frameworks/Agoraffmpeg.framework/",
+      "Payload/MomoChat.app/Frameworks/ttcrypto.framework/",
+      "Payload/MomoChat.app/Frameworks/RealXBase.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKVolcLog.framework/",
+      "Payload/MomoChat.app/Frameworks/AgoraRtcKit.framework/",
+      "Payload/MomoChat.app/Frameworks/nuisdk.framework/",
+      "Payload/MomoChat.app/Frameworks/SudMGP.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKLivePlayerNormal.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKTopSignature.framework/",
+      "Payload/MomoChat.app/Frameworks/AgoraAiEchoCancellationExtension.framework/",
+      "Payload/MomoChat.app/Frameworks/VolcBaseLog.framework/",
+      "Payload/MomoChat.app/Frameworks/TTSDKHttpDNS.framework/"
+    ],
+    "has_mobileprovision": false,
+    "has_code_signature_dir": true,
+    "has_privacy_manifest": true
+  },
+  "notes": []
+}

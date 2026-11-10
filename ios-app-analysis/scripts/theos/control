@@ -1,0 +1,9 @@
+Package: com.example.researchkit
+Name: ResearchKit
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Description: Local UI research panel and Logos/Objective-C teaching template. Contains no business-logic modifications.
+Maintainer: Local Research
+Author: Local Research
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)

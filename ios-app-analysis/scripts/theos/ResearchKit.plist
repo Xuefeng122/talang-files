@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Filter</key>
+	<dict>
+		<key>Bundles</key>
+		<array>
+			<!-- 占位：只在你自己拥有、并有权测试的应用里填写其 Bundle ID -->
+			<string>com.example.myowndemo</string>
+		</array>
+		<key>Mode</key>
+		<string>Any</string>
+	</dict>
+</dict>
+</plist>
